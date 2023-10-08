@@ -1,0 +1,63 @@
+.App{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+span{
+    padding-left: 100px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.posterImage{
+  height: 600px;
+}
+.posterImage img{
+  margin: auto;
+  width:10%;
+  display: block;
+}
+.posterImage_overlay{
+  position:absolute;
+  padding:5px;
+  bottom:0px;
+  height:70%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content:flex-end;
+  align-items:flex-start;
+  background-image: linear-gradient(black);
+  opacity: 1;
+  transition:opacity .3s;
+  margin-left: 75px;
+}
+.posterImage_overlay:hover{
+  opacity:1;
+}
+.posterImage_title{
+  font-weight: 900;
+  font-size:45px;
+  margin-bottom: 15px;
+  text-align: left;
+  font-style: bold;
+  
+}
+
+.posterImage_runtime{
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.posterImage_rating{
+  margin-left: 15px;
+}
+.posterImage_des{
+  font-style: italic;
+  font-size: 25px;
+  margin-bottom: 100px;
+  display: flex;
+  text-align:left;
+  width:50%;
+}
+i{
+  color:aqua;
+}
